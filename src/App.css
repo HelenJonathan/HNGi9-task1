@@ -1,0 +1,108 @@
+/* general styles */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #101828;
+  text-align: center;
+}
+
+/* desktop screen, profile.js styles*/
+
+.profile {
+  padding: 2rem 2rem;
+}
+
+.pointer {
+  margin-left: 80%;
+  display: block;
+  padding-right: 2rem;
+}
+.face-img {
+  height: 88px;
+  width: 88px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+}
+
+h3 {
+  padding: 1rem;
+}
+
+/* desktop screen, app.js styles*/
+
+.link-container {
+  background-color: white;
+
+}
+
+.anchor {
+  display: block;
+  min-width: 70%;
+}
+
+button {
+  padding: 24px 32px;
+  margin: 8px 0px;
+  width: 80%;
+  height: 76px;
+  background: #EAECF0;
+  border: 1px solid #EAECF0;
+  border-radius: 8px;
+  font-size: 18px;
+}
+
+/*  desktop screen footer.js styles */
+
+.footer  {
+  padding: 2rem 0;
+}
+
+.slack a {
+  padding: 1rem;
+}
+
+hr {
+  width: 75%;
+  color: #EAECF0;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 4rem;
+  margin-bottom: -3rem;
+}
+
+.zuri {
+  padding-top: 5rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.zuri p {
+  color: #EAECF0;
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 600px) {
+  .zuri {
+    padding-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-left: 2rem;
+  }
+  .zuri img {
+    width: 40%;
+    padding: 1rem 0px;
+  }
+}
