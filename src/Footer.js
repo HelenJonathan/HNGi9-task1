@@ -7,9 +7,9 @@ import I4G from "./assets/I4G.png"
 
 const Footer = () => {
 
-    const openInNewTab = url => {
-        window.open(url, '_blank', 'noopener,noreferrer');
-      };
+    // const openInNewTab = url => {
+    //     window.open(url, '_blank', 'noopener,noreferrer');
+    //   };
     
     return (
         <div className="footer">

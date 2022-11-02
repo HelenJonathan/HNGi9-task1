@@ -27,17 +27,55 @@ body{
   padding-right: 2rem;
 }
 
-.face-img {
-  height: 88px;
-  width: 88px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+.face-card-container {
+  position: relative;
+}
+
+.face-card-container:focus {
+  border: 5.5px solid #EBE9FE;
   border-radius: 50%;
 }
 
+.face-card-container:hover .middle {
+  opacity: 1;
+}
+
+.face-img {
+  position: relative;
+  height: 88px;
+  width: 88px;
+  
+  border-radius: 50%;
+  z-index: 0;
+  opacity: 1;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .3s ease;
+  opacity: 0;
+  display: inline;
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
+  background: rgba(52, 64, 84, 75);
+}
+
 .face-img:hover {
-  background-image: url("./assets/Hoverimage.png");
+  opacity: 0.6;
+}
+
+.camara {
+  position: absolute;
+  z-index: 2;
+  margin-top: 3.5rem;
+  margin-left: -2.5rem;
+  transform: translate(-50%, -50%);
+}
+
+.camara:hover {
+  display: block;
 }
 
 h3 {
@@ -57,10 +95,6 @@ h3 {
   color: #101828;
 }
 
-.anchor:hover {
-  
-}
-
 button {
   padding: 24px 32px;
   margin: 8px 0px;
@@ -72,6 +106,10 @@ button {
   font-size: 18px;
 }
 
+button:hover {
+  background-color: #0f1218bf;
+  color:#EAECF0;
+}
 /*  desktop screen footer.js styles */
 
 .footer  {

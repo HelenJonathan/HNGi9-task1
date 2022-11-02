@@ -10,14 +10,14 @@ const Profile = () => {
             <div>
                 <img alt="direct" src={Direct} className="pointer" />
             </div>
-            <div className="face-card-container">
-                
-                   <img alt="face-card" src={Stargirl} className="face-img" 
-                //    onMouseOver={e => (e.currentTarget.src={Hoverimage})}
-                   />
-                              
-                <h3>Helen Jonathan Efebe</h3>
+            <div tabIndex="0" className="face-card-container">
+                   <img alt="face-card" src={Stargirl} className="face-img" />
+                   <div className="middle">
+                     <img alt="camara" src={Hoverimage} className="camara" />  
+                   </div>
+                                          
             </div>
+            <h3>Helen Jonathan Efebe</h3>
         </div>
     )
 }

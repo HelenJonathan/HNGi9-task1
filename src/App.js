@@ -2,9 +2,9 @@ import React from 'react';
 import './App.css';
 
 const App = () => {
-  const openInNewTab = url => {
-    window.open(url, '_blank', 'noopener,noreferrer');
-  };
+  // const openInNewTab = url => {
+  //   window.open(url, '_blank', 'noopener,noreferrer');
+  // };
 
   return (
     <div className='link-container'>
