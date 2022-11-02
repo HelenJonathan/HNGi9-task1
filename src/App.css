@@ -29,11 +29,17 @@ body{
 
 .face-card-container {
   position: relative;
+  width: 88px;
+  height: 88px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .face-card-container:focus {
   border: 5.5px solid #EBE9FE;
   border-radius: 50%;
+  width: 88px;
+  height: 88px;
 }
 
 .face-card-container:hover .middle {
@@ -53,13 +59,18 @@ body{
 }
 
 .middle {
+  position: absolute;
   transition: .3s ease;
   opacity: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   display: inline;
   width: 88px;
   height: 88px;
   border-radius: 50%;
-  background: rgba(52, 64, 84, 75);
+  background: #2b2f36;
 }
 
 .face-img:hover {
@@ -70,7 +81,6 @@ body{
   position: absolute;
   z-index: 2;
   margin-top: 3.5rem;
-  margin-left: -2.5rem;
   transform: translate(-50%, -50%);
 }
 
