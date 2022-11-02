@@ -95,6 +95,10 @@ h3 {
   color: #101828;
 }
 
+.link-container a {
+  color: black;
+}
+
 button {
   padding: 24px 32px;
   margin: 8px 0px;
