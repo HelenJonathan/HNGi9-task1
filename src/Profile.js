@@ -11,7 +11,7 @@ const Profile = () => {
                 <img alt="direct" src={Direct} className="pointer" />
             </div>
             <div tabIndex="0" className="face-card-container">
-                   <img alt="face-card" src={Stargirl} className="face-img" />
+                   <img alt="face-card" src={Stargirl} className="face-img" tabIndex="1" />
                    <div className="middle">
                      <img alt="camara" src={Hoverimage} className="camara" />  
                    </div>
