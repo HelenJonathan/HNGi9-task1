@@ -31,6 +31,8 @@ body{
   position: relative;
   width: 88px;
   height: 88px;
+  pointer: cursor;
+  backface-visibility: hidden;
   margin-left: auto;
   margin-right: auto;
 }
@@ -70,7 +72,7 @@ body{
   width: 88px;
   height: 88px;
   border-radius: 50%;
-  background: #2b2f36;
+  background: #374e4d94;
 }
 
 .face-img:hover {

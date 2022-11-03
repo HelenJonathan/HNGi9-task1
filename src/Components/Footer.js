@@ -1,9 +1,9 @@
 import React from "react";
-import './App.css';
-import Slack from "./assets/slack.png";
-import Github from "./assets/Icon.png";
-import Zuri from "./assets/Vector.png";
-import I4G from "./assets/I4G.png"
+import "./Styles.css";
+import Slack from "../assets/slack.png";
+import Github from "../assets/Icon.png";
+import Zuri from "../assets/Vector.png";
+import I4G from "../assets/I4G.png"
 
 const Footer = () => {
     

@@ -1,8 +1,8 @@
 import React from "react";
-import './App.css';
-import Stargirl from "./assets/stargirl.jpeg"
-import Direct from "./assets/_Avatar share button.png"
-import Hoverimage from "./assets/Hoverimage.png"
+import "./Styles.css";
+import Stargirl from "../assets/stargirl.jpeg"
+import Direct from "../assets/_Avatar share button.png"
+import Hoverimage from "../assets/Hoverimage.png"
 
 const Profile = () => {
     return (
