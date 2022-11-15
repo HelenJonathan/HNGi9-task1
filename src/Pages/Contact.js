@@ -96,7 +96,7 @@ class Contact extends React.Component {
               placeholder="yourname@email.com"
             />
           </div>
-          <div className="">
+          <div className="messages">
             <label className="label">Message </label>
             <textarea
               value={this.state.textarea}
