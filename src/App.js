@@ -21,25 +21,4 @@ const App = () => {
 
 }
 
-
-// import React from 'react';
-// import { BrowserRouter } from "react-router-dom";
-// import Body from "./Components/Body";
-// import Footer from "./Components/Footer";
-// import Profile from "./Components/Profile"
-
-// const App = () => {
-  
-//   return (
-//     <div>
-//       <BrowserRouter> 
-//       <Profile />
-//       <Body />
-//       <Footer />
-//       </BrowserRouter>
-      
-//     </div>
-//   );
-// }
-
 export default App;

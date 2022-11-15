@@ -55,7 +55,6 @@ a {
   position: relative;
   height: 88px;
   width: 88px;
-  
   border-radius: 50%;
   z-index: 0;
   opacity: 1;
@@ -131,11 +130,14 @@ h3 {
 /*  desktop screen footer.js styles */
 
 .footer  {
-  padding: 2rem 0;
+  padding: 1rem 0;
 }
 
 .slack a {
-  padding: 1rem;
+  padding-top: 3rem;
+}
+#img-slack{
+  padding-top: 2rem;
 }
 
 hr {
@@ -158,7 +160,11 @@ hr {
   font-size: 25px;
 }
 
-@media only screen and (max-width: 600px) {
+#contact {
+  color: #101828;
+}
+
+@media only screen and (max-width: 850px) {
   .zuri {
     padding-top: 5rem;
     display: flex;

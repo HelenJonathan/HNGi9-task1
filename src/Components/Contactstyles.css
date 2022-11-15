@@ -1,0 +1,145 @@
+/* General styles for contact page */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  font-size: 18px;
+  width: 100%;
+}
+
+/* Header and paragraph styles */
+
+.container {
+  margin-top: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+.header-text {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 44px;
+  color: #101828;
+}
+
+.paragraph {
+  font-weight: 200;
+  font-size: 18px;
+  line-height: 30px;
+  color: #475467;
+  text-align: start;
+}
+
+/* Form styles */
+
+.name-container {
+  display: flex;
+}
+
+.names {
+  width: 45%;
+  margin: 1rem 0;
+  display: flex;
+  flex-direction: column;
+}
+
+#first_name {
+  padding: 10px 14px;
+  height: 44px;
+  background: #ffffff;
+  border: 1px solid #d0d5dd;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+  margin-right: 20px;
+}
+
+#first_name::placeholder {
+  color: #101828 !important;
+}
+
+#last_name {
+  padding: 10px 14px;
+  height: 44px;
+  background: #ffffff;
+  border: 1px solid #d0d5dd;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+}
+
+.email {
+  display: flex;
+  flex-direction: column;
+}
+
+#email {
+  padding: 10px 14px;
+  height: 44px;
+  background: #ffffff;
+  border: 1px solid #d0d5dd;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+  width: 90%;
+}
+
+#message {
+  padding: 10px 14px;
+  height: 132px;
+  background: #ffffff;
+  border: 1px solid #d0d5dd;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+  width: 90%;
+}
+
+.message {
+  display: flex;
+  flex-direction: column;
+}
+
+#checkbox {
+  margin-right: 1rem;
+}
+
+#btn__submit {
+  width: 90%;
+  height: 48px;
+  background: #1570ef;
+  border: 1px solid #1570ef;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 16px;
+  margin: 1rem 0;
+}
+
+@media only screen and (max-width: 850px) {
+  .name-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .names {
+    width: 90%;
+  }
+  .paragraph {
+    font-weight: 100;
+    font-size: 15px;
+  }
+  #first_name{
+    margin-right: 0;
+  }
+  .checkbox-label {
+    font-size: 12px;
+  }
+}
